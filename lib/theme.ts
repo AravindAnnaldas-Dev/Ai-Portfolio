@@ -2,52 +2,79 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
+    mode: "dark",
     primary: {
-      main: "#1976d2",
-      light: "#42a5f5",
-      dark: "#1565c0",
-      contrastText: "#fff",
+      main: "#00f5ff",
+      contrastText: "#003739",
     },
     secondary: {
-      main: "#9c27b0",
-      light: "#ba68c8",
-      dark: "#7b1fa2",
-      contrastText: "#fff",
+      main: "#ddb7ff",
+      contrastText: "#490080",
     },
     background: {
-      default: "#f5f5f5",
-      paper: "#ffffff",
+      default: "#131313",
+      paper: "#201f1f",
     },
+    text: {
+      primary: "#e5e2e1",
+      secondary: "#b9caca",
+    },
+    divider: "#3a494a",
   },
   typography: {
-    fontFamily: [
-      "Inter",
-      "-apple-system",
-      "BlinkMacSystemFont",
-      '"Segoe UI"',
-      "Roboto",
-      "Arial",
-      "sans-serif",
-    ].join(","),
-    h1: { fontWeight: 700 },
-    h2: { fontWeight: 600 },
-    h3: { fontWeight: 600 },
+    fontFamily: "var(--font-inter), Inter, sans-serif",
+    h1: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 800,
+      letterSpacing: "-0.04em",
+    },
+    h2: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 700,
+      letterSpacing: "-0.03em",
+    },
+    h3: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 700,
+      letterSpacing: "-0.02em",
+    },
+    h4: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 700,
+    },
+    h5: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 700,
+    },
+    h6: {
+      fontFamily: "var(--font-manrope), Manrope, sans-serif",
+      fontWeight: 700,
+    },
+    caption: {
+      fontFamily: "var(--font-space-grotesk), 'Space Grotesk', sans-serif",
+      letterSpacing: "0.1em",
+      textTransform: "uppercase" as const,
+      fontSize: "0.75rem",
+    },
   },
   shape: {
-    borderRadius: 8,
+    borderRadius: 2,
   },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: "none",
-          fontWeight: 600,
+          textTransform: "none" as const,
+          fontWeight: 700,
+          fontFamily: "var(--font-manrope), Manrope, sans-serif",
+          letterSpacing: "0.1em",
         },
       },
     },
     MuiCssBaseline: {
       styleOverrides: {
         body: {
+          backgroundColor: "#131313",
           scrollbarWidth: "thin",
         },
       },
