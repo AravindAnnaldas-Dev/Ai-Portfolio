@@ -40,7 +40,7 @@ export default function Navbar() {
               fontSize: { xs: "1rem", md: "1.1rem" },
             }}
           >
-            The Luminal Architect
+            Aravind Annaldas
           </Typography>
 
           <Box

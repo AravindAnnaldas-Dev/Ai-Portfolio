@@ -4,15 +4,17 @@ import Typography from "@mui/material/Typography";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 const stats = [
-  { value: "25%", label: "LCP Improvement", color: "#00f5ff" },
-  { value: "40+", label: "API Integrations", color: "#ddb7ff" },
-  { value: "10k+", label: "Daily Users", color: "#ddb7ff" },
-  { value: "0.2s", label: "Hydration Speed", color: "#e9feff" },
+  { value: "25%", label: "Performance Gain", color: "#00f5ff" },
+  { value: "2+", label: "Years Experience", color: "#ddb7ff" },
+  { value: "3", label: "Booking Platforms", color: "#ddb7ff" },
+  { value: "Sep '23", label: "At Enspirit", color: "#e9feff" },
 ];
 
 const achievements = [
-  "React Query Architecture Optimization",
-  "Next.js Server-Side Efficiency",
+  "React Query & Axios API Integration",
+  "Lazy Loading & Memoization Optimization",
+  "Reusable Component Architecture",
+  "Agile / Scrum Collaboration",
 ];
 
 const glassPanelSx = {
@@ -66,7 +68,7 @@ export default function ExperienceSection() {
                 lineHeight: 1.1,
               }}
             >
-              Enspirit Technologies: The Impact of My Work
+              Frontend Developer at Enspirit Technologies
             </Typography>
 
             <Typography
@@ -78,9 +80,10 @@ export default function ExperienceSection() {
                 fontSize: "1.05rem",
               }}
             >
-              Engineered flight, hotel, and train booking platforms with a focus
-              on React Query and API efficiency. Achieved ~25% performance
-              improvement through lazy loading and memoization.
+              Engineered scalable flight, hotel, and train booking platforms using
+              React.js and Next.js, implementing complete search-to-checkout
+              transactional workflows. Improved application performance by ~25%
+              through reusable component architecture, lazy loading, and memoization.
             </Typography>
 
             <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>

@@ -64,11 +64,20 @@ export default function ContactSection() {
             lineHeight: 1.8,
           }}
         >
-          Whether you&apos;re looking to build a high-conversion booking engine
-          or optimize a legacy React app, let&apos;s talk architecture.
+          Whether you&apos;re looking to build a high-performance booking platform
+          or optimize a React app, let&apos;s connect at{" "}
+          <Box
+            component="a"
+            href="mailto:annaldasaravind897@gmail.com"
+            sx={{ color: "#00f5ff", textDecoration: "none" }}
+          >
+            annaldasaravind897@gmail.com
+          </Box>
         </Typography>
 
         <Button
+          component="a"
+          href="mailto:annaldasaravind897@gmail.com"
           variant="outlined"
           sx={{
             position: "relative",

@@ -6,22 +6,22 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Next-Gen Travel Platform",
+    title: "Travel Booking Platform",
     description:
-      "End-to-end booking flow redesign for high-traffic environments. Implemented optimized search-to-checkout pipelines reducing bounce rates by 18%.",
+      "Dynamic search and booking workflows for flights, hotels, and trains. Integrated REST APIs using React Query and Axios for real-time data rendering across complete search-to-checkout transactional flows.",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDG2P1n6ewbUDYskQQejYkFjsfFWmDw3WsD7SmirF6tSSvj3vhS5tsKaSrQBpjHs9eXb30Pxudp0bPn356EOXnwqjgmL9QtC-N6nS2vZIXhcyHEeyVq9uiNzktKPVlFsM6IuMpxGXcbt2G4kKdU5LlvuRyxP0x-ks6VN45oWXpuNcliFJRU9JNi1ZgHpdqB80ktjk9EEvE0oEUkDQEh1nnGce2DZN1F8yXV3hEdjGOMHJrBsZR-5yiXdzB9H4H7ovlDV6qZ4u8a4egy",
-    tags: ["Next.js", "TypeScript", "React Query"],
+    tags: ["React.js", "Next.js", "TypeScript", "React Query", "Axios"],
     tagColor: "#00f5ff",
     isWide: true,
   },
   {
-    title: "E-commerce Admin Ecosystem",
+    title: "E-commerce Admin Dashboard",
     description:
-      "Real-time data visualization and complex CRUD operations for vendor management systems.",
+      "CRUD-based admin panel with API-driven data handling for vendor management and product operations.",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB3CadV6Gs215CSqfmKbs3QcRt6e0NGMUT1Nc4PoF_URhlan_iBSJfEVNS9HcQ1eqyzvG7nzBk6zbbC1rXvgawJCiT3QIR4UB1fnSrMcr4Nz_GwSd-WizDCKxPDBLuoU3Xaign7bKy43XPP9XXs99AQS8R62gNn1jZtPTqwoaw1s5Uh3VylFwoSBoam11EpdQt4MZ8GKeiH96CJYdzL-BhaTz93WfaO7pGPWkzIAVU09cbnEUhw3TM_jAWYxyIqIGlnF1VLtZ3GLLvu",
-    tags: ["Zustand", "Tailwind", "Chart.js"],
+    tags: ["React.js", "REST APIs", "Axios", "Material UI"],
     tagColor: "#ddb7ff",
     isWide: false,
   },

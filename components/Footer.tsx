@@ -28,7 +28,7 @@ export default function Footer() {
           color: "rgba(233, 254, 255, 0.4)",
         }}
       >
-        ©️ 2024 THE LUMINAL ARCHITECT. ENGINEERED FOR PERFORMANCE.
+        ©️ 2024 ARAVIND ANNALDAS. ENGINEERED FOR PERFORMANCE.
       </Typography>
 
       <Box sx={{ display: "flex", gap: 4 }}>

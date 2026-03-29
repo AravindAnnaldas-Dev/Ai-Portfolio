@@ -19,22 +19,22 @@ const skillCategories: SkillCategory[] = [
     Icon: LayersIcon,
     iconColor: "#00f5ff",
     accentColor: "rgba(0, 245, 255, 0.1)",
-    title: "Core Development",
-    skills: ["React 18", "Next.js 14", "TypeScript", "Node.js"],
+    title: "Frontend",
+    skills: ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3"],
   },
   {
     Icon: ApiIcon,
     iconColor: "#ddb7ff",
     accentColor: "rgba(111, 0, 190, 0.1)",
-    title: "Data & APIs",
-    skills: ["React Query", "Axios", "RESTful Architecture", "GraphQL"],
+    title: "UI & APIs",
+    skills: ["Tailwind CSS", "Material UI", "REST APIs", "React Query", "Axios", "Responsive Design"],
   },
   {
     Icon: SpeedIcon,
     iconColor: "#e9feff",
     accentColor: "rgba(233, 254, 255, 0.05)",
-    title: "Performance",
-    skills: ["Lazy Loading", "Memoization", "Code Splitting", "Lighthouse CI"],
+    title: "Tools",
+    skills: ["Git", "GitHub", "Postman", "Agile / Scrum"],
   },
 ];
 

@@ -19,9 +19,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "The Luminal Architect | Frontend Specialist",
+  title: "Aravind Annaldas | Frontend Developer",
   description:
-    "Frontend specialist focusing on performance gains through scalable React architectures and optimized booking platforms.",
+    "Frontend Developer with 2+ years of experience building scalable, high-performance web applications using React.js, Next.js, and TypeScript.",
 };
 
 export default function RootLayout({

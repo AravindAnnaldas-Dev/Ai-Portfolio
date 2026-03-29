@@ -72,7 +72,7 @@ export default function HeroSection() {
             fontSize: "0.75rem",
           }}
         >
-          Frontend Engineering Specialist
+          Frontend Developer · Hyderabad, India
         </Typography>
 
         <Typography
@@ -87,7 +87,7 @@ export default function HeroSection() {
             mb: 4,
           }}
         >
-          Architecting{" "}
+          Building{" "}
           <Box
             component="span"
             sx={{
@@ -96,9 +96,9 @@ export default function HeroSection() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            High-Performance
+            Scalable
           </Box>{" "}
-          User Experiences.
+          Web Applications.
         </Typography>
 
         <Typography
@@ -112,8 +112,9 @@ export default function HeroSection() {
             lineHeight: 1.8,
           }}
         >
-          Frontend specialist focusing on 25% performance gains through scalable
-          React architectures and optimized booking platforms.
+          Frontend Developer with 2+ years of experience building high-performance
+          web applications using React.js, Next.js, and TypeScript — specializing
+          in travel booking platforms and REST API integrations.
         </Typography>
 
         <Box
