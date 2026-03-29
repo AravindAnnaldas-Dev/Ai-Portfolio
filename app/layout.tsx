@@ -19,9 +19,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Aravind Annaldas | Frontend Developer",
+  title: "Katikala Rishikar Babu | Backend & AI Systems Developer",
   description:
-    "Frontend Developer with 2+ years of experience building scalable, high-performance web applications using React.js, Next.js, and TypeScript.",
+    "Dynamic Software Developer specializing in PostgreSQL and API integration, Node.js, LangChain, and AI-powered backend systems.",
 };
 
 export default function RootLayout({
